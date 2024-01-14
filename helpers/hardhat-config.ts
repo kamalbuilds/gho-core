@@ -21,6 +21,7 @@ export const NETWORKS_RPC_URL: Record<string, string> = {
     eEthereumNetwork.goerli
   )}`,
   sepolia: 'https://rpc.sepolia.ethpandaops.io',
+  mumbai: 'https://polygon-mumbai-pokt.nodies.app',
 };
 
 const GAS_PRICE_PER_NET: Record<string, number> = {};
